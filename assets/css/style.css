@@ -1,3 +1,11 @@
+/*apply styling to overall page to override default browser styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*structure of the body element*/
 body{
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
@@ -45,8 +53,26 @@ header h1{
     display: inline;
 }
 
-/*apply styling to overall page to override default browser styling*/
-*{
+/*styling for the run-buddy footer*/
+footer{
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
     margin: 0;
-    padding: 0;
+}
+
+div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a{
+    color: #024e76;
 }
