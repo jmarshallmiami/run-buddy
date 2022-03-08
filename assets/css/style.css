@@ -215,3 +215,27 @@ footer a{
     float: left;
     width: 65%;
 }
+
+/* text alignment for the trainer description*/
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/*text styling for trainer bios*/
+.trainer-bio h3{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.trainer-bio h4{
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.trainer-bio p{
+    font-size: 17px;
+    line-height: 1.3;
+}
+
