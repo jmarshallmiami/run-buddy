@@ -146,10 +146,6 @@ footer a{
 }
 
 /* add style for what we do section */
-.intro{
-    text-align: center;
-    display: inline-block;
-}
 .intro h2{
     font-size: 55px;
     color: #024e76;
@@ -165,15 +161,13 @@ footer a{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* add style to what you do steps */
 .section-title{
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
   
@@ -187,7 +181,6 @@ footer a{
 
 /* add style to steps sections*/
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -216,9 +209,7 @@ footer a{
 }
 
 /*trainer section*/
-.trainers{
-    text-align: center
-}
+
 .trainer{
     width: 900px;
     margin: 0 auto 30px auto;
@@ -262,7 +253,6 @@ footer a{
 
 /*add style to reach-out section */
 .contact{
-    text-align: center;
     background: #024e76;
 }
 .contact h2{
@@ -291,3 +281,6 @@ footer a{
     font-style: normal;
 }
 
+.flex-row{
+    display: flex;
+}
